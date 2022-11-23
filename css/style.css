@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    nav>div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    header a {
+        font-size: x-large !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 100px;
+    }
+
+    header a {
+        font-size: medium !important;
+        font-weight: 500 !important;
+    }
+}
+
+@media (max-width: 670px) {
+    header a {
+        font-size: 0.6em !important;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px) {
+    header a {
+        font-size: medium !important;
+        font-weight: bold;
+    }
+}
